@@ -2,18 +2,32 @@
 <html lang="pl">
 
 		<head>
+				<!-- zestaw kodowania znaków (w tym polskie znaki diakrytyczne) najbardziej popularny i używany -->
 				<meta charset = "utf-8" />
 				<title> Najlepsze obrazki i memy! </title>
 				<meta name = "description" content = "Spis filmów test" />
 				<meta name = "keywords" content = "test, lol, app, git" />
+				
+				<!-- polecenie pozwalające zawsze użyć najnowszej wersji IE jaka jest dostępna na PC, IE to nie przeglądarka, to aplikacja -->
 				<meta http-equiv ="X-UA-Compatible" content = "IE=edge,chrome=1" /> 
+				<!-- 
+				Tutaj jest połączenie do pliku stylów CSS, 
+				jeśli w tym samym folderze to tylko nazwa pliku
+				type - plik tekstowy z rozszerzeniem CSS (potwierdzenie dla przeglądarki)
+				-->
+				<link rel = "stylesheet" href = "style.css" type = "text/css"  /> 
 		</head>
 
 		<body text = "green">
 		
-			<h1>"Jestem Debilem"</h1>
-			<a href="https://www.youtube.com/watch?v=ztVMib1T4T4" target =  "_blank" title = "Gdy prosisz o podwyżkę"> komedia 
+			<h1 style =" color: green;">Jestem Debilem </h1> <!-- kolor nie zadziała bo w pliku css użyty important -->
+			
+			
+			<a href="https://www.youtube.com/watch?v=ztVMib1T4T4" target =  "_blank" title = "Gdy prosisz o podwyżkę" > 
+			komedia 
 			</a> 
+		
+			
 			<br/>
 			<br/> 
 			Spacje 2
@@ -24,6 +38,11 @@
 			<br/>
 			<a  href = "https://www.youtube.com/watch?v=mvn2u-pdXTU" title = "Taki? to znaczy jaki?" target = "_blank"> <img src="img/b2.png" /> 
 			</a>
+			
+			<br/>
+			<a href = "https://www.youtube.com/watch?v=9gZgqUsBCgE" title = "A jak Pan Jezus powiedział?" target = "_blank">
+				<img src = 'img/b3.jpg'/>
+				</a>
 			
 			
 			

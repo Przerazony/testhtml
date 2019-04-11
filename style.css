@@ -1,0 +1,48 @@
+body
+{
+	background-color: gray;
+	font-family: Verdana;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+}
+
+
+h1
+{
+		font-size: 48px;
+		color: red !important;
+		
+}
+
+/*nieodwiedzony link*/
+a:link
+{
+	color: yellow;
+}
+
+/*odwiedzony link*/
+a:visited
+{
+	color: yellow;
+}
+
+/*po najechaniu kursorem*/
+a:hover
+{
+	color: red;
+}
+	
+img
+{
+	display: block; 
+	margin: 0 auto;
+	/*position : absolute;
+	top: 50%;
+	left: 50%;*/
+}	
+
+test
+{
+	
+}
