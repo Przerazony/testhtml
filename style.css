@@ -1,6 +1,6 @@
 body
 {
-	background-color: gray;
+	background-color: rgb(44, 44, 44);
 	font-family: Verdana;
 	font-size: 20px;
 	color: white;
@@ -18,7 +18,7 @@ h1
 /*nieodwiedzony link*/
 a:link
 {
-	color: yellow;
+	color: rgb(175, 175, 137);
 }
 
 /*odwiedzony link*/
@@ -30,7 +30,7 @@ a:visited
 /*po najechaniu kursorem*/
 a:hover
 {
-	color: red;
+	color: black;
 }
 	
 img
@@ -42,7 +42,4 @@ img
 	left: 50%;*/
 }	
 
-test
-{
-	
-}
+

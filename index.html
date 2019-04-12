@@ -5,7 +5,7 @@
 				<!-- zestaw kodowania znaków (w tym polskie znaki diakrytyczne) najbardziej popularny i używany -->
 				<meta charset = "utf-8" />
 				<title> Najlepsze obrazki i memy! </title>
-				<meta name = "description" content = "Spis filmów test" />
+				<meta name = "description" content = "Backup memy" />
 				<meta name = "keywords" content = "test, lol, app, git" />
 				
 				<!-- polecenie pozwalające zawsze użyć najnowszej wersji IE jaka jest dostępna na PC, IE to nie przeglądarka, to aplikacja -->
@@ -16,15 +16,28 @@
 				type - plik tekstowy z rozszerzeniem CSS (potwierdzenie dla przeglądarki)
 				-->
 				<link rel = "stylesheet" href = "style.css" type = "text/css"  /> 
+
+				<!-- linie kodu obłsugujące zegarek -->
+				<!-- w "type" dajemy znać przeglądarce że pomiędzy liniami "script" znajdzie się tekst który przeglądarka ma potraktować jako kod JS i wykonuj linia po lini-->
+				<script type = "text/javascript" src="timer.js"> 
+				/*jeżeli nie wyeksportujemy do nowego pliku funckji JS to zawartość powinna sięznaleźć tutaj*/
+				</script>
 		</head>
 
-		<body text = "green">
+		<!-- wywołanie funkcji w momencie wczytania strony do przeglądarki realizuje zadanie < body onload="nazwafunkcji()";> nie wszystkie będziemy ładować w ten sposób, niektóre na klik -->
+		<body onload = "odliczanie();">
+			<!-- jak pojemnik w kodzie JS będzie identyfikowany można nadać w atrybucie id-->
+			<div id="Zegar"> aa </div>
+			<!-- tutaj musimy umieścić znów sekcję script gdyż w head jest tylko struktura a teraz ją wykorzystamy do konkretnego ID o którym html wie dopiero po jego utworzeniu tj pod nim w liniach kodu -->
 		
+			
+
+
 			<h1 style =" color: green;">Jestem Debilem </h1> <!-- kolor nie zadziała bo w pliku css użyty important -->
 			
 			
 			<a href="https://www.youtube.com/watch?v=ztVMib1T4T4" target =  "_blank" title = "Gdy prosisz o podwyżkę" > 
-			komedia 
+			Reakcja Zbycha na chęć przedłużenia umowy przez Kamila 
 			</a> 
 		
 			
@@ -43,7 +56,9 @@
 			<a href = "https://www.youtube.com/watch?v=9gZgqUsBCgE" title = "A jak Pan Jezus powiedział?" target = "_blank">
 				<img src = 'img/b3.jpg'/>
 				</a>
-			
+
+			<br/>
+			<a href = "https://www.youtube.com/watch?v=l9yLZFTPMa4" title = "Uciekaj" target = "_blank"><img src = "img/b4.jpg"  /> </a>					
 			
 			
 			
